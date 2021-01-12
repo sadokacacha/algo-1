@@ -1,0 +1,21 @@
+ALGORITHM checkpoint
+VAR
+    x:STRING;
+    long:INTEGER;
+    i:INTEGER;
+    vowels : STRING =0;
+BEGIN
+    write ("write a sentence with .")
+    read (x)
+    long=x.length()
+    
+    FOR i FROM 1 TO long   DO
+        IF (X[i]="a") or (X[i]="e")  or (X[i]="i")  or (X[i]="o")  or (X[i]="u") 
+            vowels=vowels+1
+
+        END_IF
+
+
+    END_FOR
+    
+END
